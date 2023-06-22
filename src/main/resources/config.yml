@@ -1,0 +1,4 @@
+resource-pack: "https://download.mc-packs.net/pack/71d9285035b777a0c77df2e4965e43fa2daeb089.zip"
+resource-pack-sha1: "71d9285035b777a0c77df2e4965e43fa2daeb089"
+force-pack: true
+kick-message-on-decline: "Du musst das Ressourcenpaket aktivieren, um spielen zu können.\n\nGehe dafür auf Server bearbeiten ➜ Server-Ressourcenpakete ➜ Aktiviert"

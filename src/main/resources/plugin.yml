@@ -1,0 +1,5 @@
+name: SRPLoader
+version: 1.0
+author: Jannnnek
+main: de.jannnnek.srpl.SRPL
+api-version: '1.20'
