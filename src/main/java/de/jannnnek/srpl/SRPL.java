@@ -1,20 +1,19 @@
 package de.jannnnek.srpl;
 
+import de.jannnnek.srpl.util.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-import org.bukkit.event.player.PlayerKickEvent;
 import org.bukkit.event.player.PlayerResourcePackStatusEvent;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.awt.*;
 
 public class SRPL extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
+        Metrics metrics = new Metrics(this, 18891);
         getConfig().options().copyDefaults();
         saveDefaultConfig();
         Bukkit.getPluginManager().registerEvents(this, this);
